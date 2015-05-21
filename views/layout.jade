@@ -1,0 +1,16 @@
+doctype html
+html(lang='en', ng-app="steakStore")
+	head
+		meta(charset="utf-8")
+		title Anugular ish
+		link(rel="stylesheet", href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css")
+
+	body
+		block content
+		
+		script(src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.15/angular.js")
+		//- whenver you need to communicate data from client to server
+		script(src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.15/angular-resource.js")
+		//- whenever you want multiple pages or views on client side	
+		script(src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.15/angular-route.js")
+		script(src="/main.js")

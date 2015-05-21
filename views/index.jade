@@ -1,0 +1,10 @@
+extends layout
+
+block content
+	.container
+		h1 Hello Boulder!
+
+		div(ng-controller="steakController")
+			h2 Welcome to the {{name}}
+			p(ng-repeat = "x in factory")
+				{{ x.name + &apos;, &apos; + x.size + &apos;, &apos; + x.cost}}
